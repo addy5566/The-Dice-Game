@@ -16,7 +16,6 @@ h1{
 }
 .container{
     text-align: center;
-    height: ;
 }
 .Dice{
     display: flex;
@@ -36,7 +35,7 @@ p{
     text-transform: uppercase;
 }
 body{
-    background: linear-gradient(to bottom,#0f2027,#203a43,#2c5364);
+    background: linear-gradient(to bottom,#0f2027,#203a43,#052432);
     color: #ffffff;
     font-family: 'poppins',sans-serif;
 
@@ -44,7 +43,7 @@ body{
 
 marquee{
     margin-top: 170px;
-    color:yellowgreen;
+    color:#1f1b1d;
 }
 
 .img1{
