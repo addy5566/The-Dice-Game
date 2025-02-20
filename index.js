@@ -3,7 +3,7 @@
 document.querySelector(".btn").addEventListener("click",function(){
 
 let rand1 = Math.floor(Math.random()*6) +1;
-let imageGen = "images/dice"+rand1+".png";
+let imageGen = "images/dice"+rand1+".png.png";
 let image1 = document.querySelectorAll("img")[0].setAttribute("src",imageGen);
 
 
