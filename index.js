@@ -21,7 +21,16 @@ else if(rand1===rand2){
 }
 
 else{
-    document.querySelector(".text").innerHTML="Player 2 wins.👌";
+    document.querySelector(".text").innerHTML="Player 2 wins.";
 
 }
+
+
+
 });
+
+
+let sound = new Audio("sound/clicksound.mp3");
+document.querySelector(".btn").addEventListener("click", function(){
+    sound.play();
+})
