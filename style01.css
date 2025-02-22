@@ -12,7 +12,6 @@ h1{
     font-size: 400%;
     font-weight: 200;
     text-transform: uppercase;
-    
 }
 .container{
     text-align: center;
@@ -32,7 +31,6 @@ h1{
 
 p{
     font-size:200% ;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     color: bisque;
     text-transform: uppercase;
 }
@@ -62,7 +60,6 @@ marquee{
     transform: rotate(-5deg);
 }
 .btn{
-    /* display: flex ; */
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -101,6 +98,7 @@ marquee{
     border-radius: 20px;  
 }
 
+
 @media (max-width:768px) {
     h1{
         font-size: 300%;
@@ -119,15 +117,11 @@ marquee{
     }
 
     
-   
     .Dice{
         gap:30px;
     }
 
     .btn{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* margin-left: 18rem; */
         justify-content: center;
         align-items: center;
         margin-top: 3rem;
